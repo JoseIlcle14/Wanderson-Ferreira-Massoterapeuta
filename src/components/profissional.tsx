@@ -8,7 +8,7 @@ export function Profissional(){
             </div>
             <div className="flex gap-10">
                 <div className="h-50 w-50">
-                    <img src={profissional} className="rounded-full border-5 border-[#9A7240]"/>
+                    <img src={profissional} className="rounded-full border-5 border-[#9A7240] shadow-2xl shadow-black/40"/>
                 </div>
                 <div className="w-140 pt-6 space-y-5 font-sans text-[#6B502E]">
                     <p>Wanderson Ferreira, 27 anos, é massoterapeuta profissional especializado em técnicas de relaxamento, terapias musculares e alívio de tensões.</p>

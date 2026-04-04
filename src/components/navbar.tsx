@@ -7,7 +7,7 @@ export function Navbar(){
                <Link to="/"><h1>Wanderson Ferreira MASSOTERAPEUTA</h1></Link> 
             </div>
             
-            <ul className="text-white text-[18px] font-bold grid grid-flow-col gap-10 self-center">
+            <ul className="text-white text-[18px] font-bold grid grid-flow-col gap-10 self-center pr-15">
                 <Link to={"/serviços"}><li> Serviços</li></Link> 
                 <li> Beneficios</li>
                 <li> Sobre</li>

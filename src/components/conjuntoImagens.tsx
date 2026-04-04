@@ -3,7 +3,7 @@ import imagem2 from "../assets/imagens/pedras-quentes.webp";
 import imagem3 from "../assets/imagens/epicraniana.webp";
 
 export function ConjuntoImagem(){
-    const imageStyle = "rounded-full border-5 border-[#9A7240]";
+    const imageStyle = "rounded-full border-5 border-[#9A7240] shadow-2xl shadow-black/40";
     return (
         <div className="flex gap-10 w-auto">
             <div className="flex flex-col gap-30">
