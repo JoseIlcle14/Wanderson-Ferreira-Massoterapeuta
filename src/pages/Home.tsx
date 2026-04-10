@@ -1,4 +1,5 @@
 import { ConjuntoImagem } from "../components/conjuntoImagens"
+import { Localizacao } from "../components/localização"
 import {Navbar} from "../components/navbar"
 import { Profissional } from "../components/profissional"
 import { WhatzAppButton } from "../components/whatsapp"
@@ -27,6 +28,27 @@ export function Home(){
             </div>
             <div>
                 <Profissional/>
+            </div>
+            <div className="text-4xl text-[#6B502E] font-bold font-serif">
+                <h1>LOCALIZAÇÃO</h1>
+            </div>
+            <div>
+                <Localizacao
+                titulo="Clinica Fisio Bessa"
+                local="Rua Otávio Felício De Souza - 2815
+                 Bessalandia,Cascavel-CE"
+                horario="Segunda a quinta-feira
+                 18h às 20h"
+                 link="https://www.google.com/maps/place/Fisio+Bessa/@-4.1274099,-38.2436615,17z/data=!3m1!4b1!4m6!3m5!1s0x7b897acd5bd982f:0xd1572f00215137d9!8m2!3d-4.1274153!4d-38.2410866!16s%2Fg%2F11lgy_y8jy?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D"/>
+            </div>
+            <div>
+                <Localizacao
+                titulo="Clinica Ciene Neri"
+                local="Rua José Augustinho - 1658
+                Mutirão, Cascavel-CE"
+                horario="Sábados à tarde
+                13h às 16h"
+                 link="https://www.google.com/maps/place/Clinica+Ciene+Neri/@-4.1388893,-38.2505719,18z/data=!4m6!3m5!1s0x7b89763c6cd421b:0x1cec1f8e4523e86f!8m2!3d-4.138892!4d-38.2492844!16s%2Fg%2F11lyj3tsx0?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D"/>
             </div>
         </div>
         </body>
