@@ -1,4 +1,5 @@
 import { ConjuntoImagem } from "../components/conjuntoImagens"
+import { Footer } from "../components/footer"
 import { Localizacao } from "../components/localização"
 import {Navbar} from "../components/navbar"
 import { Profissional } from "../components/profissional"
@@ -8,7 +9,7 @@ export function Home(){
     return(
         <div className="bg-[#DECCB4]">
         <Navbar/>
-        <div className="pl-10">
+        <div className="pl-10 flex flex-col">
             <div className="flex justify-between">
                 <div>
                     <div className="pt-10 pb-10 gap-3 flex flex-col">
@@ -53,6 +54,9 @@ export function Home(){
                  link="https://www.google.com/maps/place/Clinica+Ciene+Neri/@-4.1388893,-38.2505719,18z/data=!4m6!3m5!1s0x7b89763c6cd421b:0x1cec1f8e4523e86f!8m2!3d-4.138892!4d-38.2492844!16s%2Fg%2F11lyj3tsx0?entry=ttu&g_ep=EgoyMDI2MDQwNy4wIKXMDSoASAFQAw%3D%3D"/>
             </div>
         </div>
+        <Footer
+        numero="5585986289481"
+        instagram="https://www.instagram.com/masso.wandersonferreira/"/>
         </div>
     )
 }

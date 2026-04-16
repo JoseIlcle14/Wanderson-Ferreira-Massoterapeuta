@@ -7,7 +7,7 @@ export function GoogleMapsButtom({link}: LinkProps){
     return(
         <div className="pt-8">
             <a href={link} target="_blank" rel="noopener noreferrer">
-                <div className="bg-[#1A73E8] w-60 p-2 rounded-2xl flex items-center font-bold text-amber-50">
+                <div className="bg-[#1A73E8] w-60 p-2 mb-2 rounded-2xl flex items-center font-bold text-amber-50">
                     <div className="h-10 w-10">
                         <img src={googlemapsicon}/>
                     </div>
