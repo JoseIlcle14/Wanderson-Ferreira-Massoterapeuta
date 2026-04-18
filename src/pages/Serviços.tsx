@@ -6,12 +6,13 @@ import img3 from "../assets/imagens/pedras-quentes.webp";
 import img4 from "../assets/imagens/epicraniana.webp";
 import img5 from "../assets/imagens/quick-massage.webp";
 import img6 from "../assets/imagens/ventosoterapia.webp";
+import { Footer } from "../components/footer";
 
 export function Serviços(){
     return(
-        <body className="bg-[#DECCB4]">
+        <div className="bg-[#DECCB4] min-h-screen overflow-x-hidden">
         <Navbar/>
-        <div className=" flex justify-center">
+        <div className=" flex flex-col md:flex-row justify-center">
             <div className="">
                 <ul>
                     <li>
@@ -63,6 +64,11 @@ export function Serviços(){
                 </ul>
             </div>
         </div>
-        </body>
+        <div>
+         <Footer
+                numero="5585986289481"
+                instagram="https://www.instagram.com/masso.wandersonferreira/"/>
+        </div>
+        </div>
     )
 }

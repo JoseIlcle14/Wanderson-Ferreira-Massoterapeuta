@@ -10,10 +10,10 @@ export function WhatzAppButton({numero}:WhatzAppButtonProps){
 
     return(
         <a href={link}>
-            <div className="bg-[#6B502E] text-3xl w-75 p-3 pl-5 font-bold text-white rounded-4xl flex gap-4 items-stretch shadow-lg cursor-pointer">
-                <div className="flex gap-4">
+            <div className="bg-[#6B502E] w-30 md:w-75 p-1 pl-2 md:p-3 md:pl-5 font-bold text-white rounded-4xl flex gap-2 md:gap-4 shadow-lg cursor-pointer">
+                <div className="flex gap-3 justify-center items-center text-[10px] md:text-3xl">
                     <p>Agende Agora</p>
-                    <div className="h-9 w-9 self-center "><img src={whatsappicon}/></div>
+                    <div className="h-5 w-5 md:h-9 md:w-9 self-center "><img src={whatsappicon}/></div>
                 </div>
             </div>
         </a>

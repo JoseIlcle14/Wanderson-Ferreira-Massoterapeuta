@@ -7,16 +7,16 @@ import { WhatzAppButton } from "../components/whatsapp"
 export function Home(){
    
     return(
-        <div className="bg-[#DECCB4]">
+        <div className="bg-[#DECCB4] overflow-x-hidden">
         <Navbar/>
-        <div className="pl-10 flex flex-col">
-            <div className="flex justify-between">
+        <div className="px-4 md:pl-10 flex flex-col">
+            <div className="flex flex-col md:flex-row md:justify-between">
                 <div>
                     <div className="pt-10 pb-10 gap-3 flex flex-col">
-                        <div className="text-4xl w-80 font-serif text-[#6B502E]">
+                        <div className="tex-xl md:text-4xl max-w-50 md:max-w-[320px] w-full font-serif text-[#6B502E]">
                             <h1>Wanderson Ferreira <span className="font-bold">MASSOTERAPEUTA</span></h1>
                         </div>
-                        <div className="text-[#4E2525]">
+                        <div className="text-[11px] md:text-[15px] text-[#4E2525]">
                             <h2>Seu corpo fala.<br/> O cansaço, o estresse, as dores e as tensões são sinais de que ele pede atenção.</h2>
                         </div>
                     </div>
@@ -25,14 +25,14 @@ export function Home(){
                         numero="5585986289481"/>
                     </div>
                 </div>
-                <div className="flex pr-15 pt-5">
+                <div className="flex pr-4 md:pr-10 pt-5">
                     <ConjuntoImagem/>
                 </div>
             </div>
             <div>
                 <Profissional/>
             </div>
-            <div className="text-4xl text-[#6B502E] font-bold font-serif">
+            <div className="text-xl md:text-4xl text-[#6B502E] font-bold font-serif">
                 <h1>LOCALIZAÇÃO</h1>
             </div>
             <div>
